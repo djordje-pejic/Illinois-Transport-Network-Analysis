@@ -20,7 +20,7 @@ The data was first validated and then centrality measure were calculated to give
 
 ## **Data Validation**
 
-The data was validated using several methods. Firstly, the validity of geometries was checked using PostGIS. All records were proven to be valid. Next, it was checked whether some businesses overlap the road geometries. Even though the results show that 25 records do overlap, examination of satellite images proved otherwise. These validation checks can be found in [Additonal Statistics](./Additional%Statistics). 
+The data was validated using several methods. Firstly, the validity of geometries was checked using PostGIS. All records were proven to be valid. Next, it was checked whether some businesses overlap the road geometries. Even though the results show that 25 records do overlap, examination of satellite images proved otherwise. These validation checks can be found in [Additonal Statistics](https://github.com/djordje-pejic/Illinois-Transport-Network-Analysis/tree/main/Additional%20Statistics). 
 
 Next, crossvalidation was done with OSM maps. All roads do overlap OSM roads with the exception of roads that officially belong to other the neigboring states, but do cross the border. These roads were not included in the OSM dataset. 
 
